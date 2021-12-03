@@ -1,15 +1,15 @@
 
 public class Address {
 	
-private	 String   number;
-private String	 street;
-private String	    city;
-private String	    country;
+private	 String streetNumber;
+private String street;
+private String city;
+private String country;
 public String getNumber() {
-	return number;
+	return streetNumber;
 }
 public void setNumber(String number) {
-	this.number = number;
+	this.streetNumber = number;
 }
 public String getStreet() {
 	return street;
